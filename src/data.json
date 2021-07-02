@@ -1,0 +1,448 @@
+{
+  "symbols": [
+    {
+      "name": "Non-Chlorine Bleach When Needed",
+      "image": "wh-bleaching-non-chlorine.svg",
+      "description": "Only a non-chlorine, color-safe bleach may be used in the laundering process. Chlorine bleach may not be used.",
+      "id": 1
+    },
+    {
+      "name": "Do Not Bleach",
+      "image": "wh-bleaching-not-allowed.svg",
+      "description": "No bleach product may be used. The garment is not colorfast or structurally able to withstand any bleach.",
+      "id": 2
+    },
+    {
+      "name": "Bleach When Needed",
+      "image": "wh-bleaching.svg",
+      "description": "Any commercially available bleach product may be used in the laundering process.",
+      "id": 3
+    },
+    {
+      "name": "Dryclean, Any Solvent",
+      "image": "wh-drycleaning-a.svg",
+      "description": "Dry Clean, any solvent. Usually used with other restrictions on proper dry cleaning procedure.",
+      "id": 4
+    },
+    {
+      "name": "Gentle Cleaning With Hydrocarbon Solvents",
+      "image": "wh-drycleaning-f-2.svg",
+      "description": "",
+      "id": 5
+    },
+    {
+      "name": "Dryclean, Petroleum Solvent Only",
+      "image": "wh-drycleaning-f.svg",
+      "description": "Dry Clean using only petroleum solvent. Usually used with other restrictions.",
+      "id": 6
+    },
+    {
+      "name": "Dryclean, Low Heat",
+      "image": "wh-drycleaning-low-heat.svg",
+      "description": "May be used with A, P, or F solvent restriction.",
+      "id": 7
+    },
+    {
+      "name": "Dryclean, No Steam",
+      "image": "wh-drycleaning-no-steam.svg",
+      "description": "May be used with A, P, or F solvent restriction.",
+      "id": 8
+    },
+    {
+      "name": "Do Not Dryclean",
+      "image": "wh-drycleaning-not-allowed.svg",
+      "description": "Garment may not be commercially drycleaned.",
+      "id": 9
+    },
+    {
+      "name": "Gentle Cleaning With PCE",
+      "image": "wh-drycleaning-p-2.svg",
+      "description": "",
+      "id": 10
+    },
+    {
+      "name": "Dryclean, Any Solvent Except Trichloroethylene",
+      "image": "wh-drycleaning-p.svg",
+      "description": "Any dry cleaning solvent other than trichloroethylene may be safely used.",
+      "id": 11
+    },
+    {
+      "name": "Dryclean, Reduced Moisture",
+      "image": "wh-drycleaning-reduced-moisture.svg",
+      "description": "May be used with A, P, or F solvent restriction.",
+      "id": 12
+    },
+    {
+      "name": "Dryclean, Short Cycle",
+      "image": "wh-drycleaning-short-cycle.svg",
+      "description": "May be used with A, P, or F solvent restriction.",
+      "id": 13
+    },
+    {
+      "name": "Gentle Wet Cleaning",
+      "image": "wh-drycleaning-w-2.svg",
+      "description": "",
+      "id": 14
+    },
+    {
+      "name": "Very Gentle Wet Cleaning",
+      "image": "wh-drycleaning-w-3.svg",
+      "description": "",
+      "id": 15
+    },
+    {
+      "name": "Professional Wet Cleaning",
+      "image": "wh-drycleaning-w.svg",
+      "description": "",
+      "id": 16
+    },
+    {
+      "name": "Professional Wet Cleaning Is Not Allowed",
+      "image": "wh-drycleaning-wetclean-not-allowed.svg",
+      "description": "",
+      "id": 17
+    },
+    {
+      "name": "Dry Clean Only",
+      "image": "wh-drycleaning.svg",
+      "description": "",
+      "id": 18
+    },
+    {
+      "name": "Drip Dry in Shade",
+      "image": "wh-drying-drip-dry-shade.svg",
+      "description": "Hang dripping wet garment from line or bar, in or out doors, without hand shaping or smoothing. Dry away from direct sunlight.",
+      "id": 19
+    },
+    {
+      "name": "Drip Dry",
+      "image": "wh-drying-drip-dry.svg",
+      "description": "Hang dripping wet garment from line or bar, in or out doors, without hand shaping or smoothing.",
+      "id": 20
+    },
+    {
+      "name": "Dry In Shade",
+      "image": "wh-drying-dry-shade.svg",
+      "description": "Usually added to Line or Drip Dry. Dry away from direct sunlight.",
+      "id": 21
+    },
+    {
+      "name": "Dry Flat in Shade",
+      "image": "wh-drying-flat-dry-shade.svg",
+      "description": "Lay out horizontally for drying. Dry away from direct sunlight.",
+      "id": 22
+    },
+    {
+      "name": "Dry Flat",
+      "image": "wh-drying-flat-dry.svg",
+      "description": "Lay out horizontally for drying.",
+      "id": 23
+    },
+    {
+      "name": "Line Dry in Shade",
+      "image": "wh-drying-line-dry-shade.svg",
+      "description": "Hang damp garment from line or bar, in or out doors. Dry away from direct sunlight.",
+      "id": 24
+    },
+    {
+      "name": "Line Dry",
+      "image": "wh-drying-line-dry.svg",
+      "description": "Hang damp garment from line or bar, in or out doors.",
+      "id": 25
+    },
+    {
+      "name": "Drying Not Allowed",
+      "image": "wh-drying-not-allowed.svg",
+      "description": "",
+      "id": 26
+    },
+    {
+      "name": "Tumble Dry, Normal, High Heat",
+      "image": "wh-drying-tumble-high-heat.svg",
+      "description": "A machine dryer may be regularly used at a High Heat setting.",
+      "id": 27
+    },
+    {
+      "name": "Tumble Dry, Normal, Low Heat, Gentle",
+      "image": "wh-drying-tumble-low-heat-extra-care.svg",
+      "description": "A machine dryer may be regularly used at a maximum of Low Heat and only at the Gentle setting.",
+      "id": 28
+    },
+    {
+      "name": "Tumble Dry, Normal, Low Heat, Permanent Press",
+      "image": "wh-drying-tumble-low-heat-permanent-press.svg",
+      "description": "A machine dryer may be regularly used at a maximum of Low Heat and only at the Permanent Press setting.",
+      "id": 29
+    },
+    {
+      "name": "Tumble Dry, Normal, Low Heat",
+      "image": "wh-drying-tumble-low-heat.svg",
+      "description": "A machine dryer may be regularly used at a maximum of Low Heat setting.",
+      "id": 30
+    },
+    {
+      "name": "Tumble Dry, Normal, Medium Heat, Permanent Press",
+      "image": "wh-drying-tumble-medium-heat-permanent-press.svg",
+      "description": "A machine dryer may be regularly used at a maximum of Medium Heat and only at the Permanent Press setting.",
+      "id": 31
+    },
+    {
+      "name": "Tumble Dry, Normal, Medium Heat",
+      "image": "wh-drying-tumble-medium-heat.svg",
+      "description": "A machine dryer may be regularly used at a maximum of Medium Heat setting.",
+      "id": 32
+    },
+    {
+      "name": "Tumble Dry, Normal, No Heat",
+      "image": "wh-drying-tumble-no-heat.svg",
+      "description": "A machine dryer may be regularly used only at No Heat or Air Only setting.",
+      "id": 33
+    },
+    {
+      "name": "Do Not Tumble Dry",
+      "image": "wh-drying-tumble-not-allowed.svg",
+      "description": "A machine dryer may not be used. Usually accompanied by an alternate drying method symbol.",
+      "id": 34
+    },
+    {
+      "name": "Tumble Dry, Normal",
+      "image": "wh-drying-tumble.svg",
+      "description": "A machine dryer may be regularly used at the hottest available temperature setting.",
+      "id": 35
+    },
+    {
+      "name": "Drying",
+      "image": "wh-drying.svg",
+      "description": "",
+      "id": 36
+    },
+    {
+      "name": "Iron, High",
+      "image": "wh-iron-high.svg",
+      "description": "Regular ironing, steam or dry, may be performed at High setting (200C, 290F).",
+      "id": 37
+    },
+    {
+      "name": "Iron, Low",
+      "image": "wh-iron-low.svg",
+      "description": "Regular ironing, steam or dry, may be performed at Low setting (110C, 230F) only.",
+      "id": 38
+    },
+    {
+      "name": "Iron, Medium",
+      "image": "wh-iron-medium.svg",
+      "description": "Regular ironing, steam or dry, may be performed at Medium setting (150C, 300F).",
+      "id": 39
+    },
+    {
+      "name": "Do Not Iron",
+      "image": "wh-iron-not-allowed.svg",
+      "description": "Item may not be smoothed or finished with an iron.",
+      "id": 40
+    },
+    {
+      "name": "Do Not Steam",
+      "image": "wh-iron-steam-not-allowed.svg",
+      "description": "Steam ironing will harm garment, but regular dry ironing at indicated temperature setting is acceptable.",
+      "id": 41
+    },
+    {
+      "name": "Iron, Any Temperature, Steam or Dry",
+      "image": "wh-iron.svg",
+      "description": "Regular ironing may be needed and may be performed at any available temperature with or without steam is acceptable.",
+      "id": 42
+    },
+    {
+      "name": "Machine Wash, Cold",
+      "image": "wh-washing-30deg-alt.svg",
+      "description": "Initial water temperature should not exceed 30C or 65 to 85F.",
+      "id": 43
+    },
+    {
+      "name": "Machine Wash, Cold, Gentle or Delicate",
+      "image": "wh-washing-30deg-extra-care-alt.svg",
+      "description": "Garment may be machine laundered only on the setting designed for gentle agitation and/or reduced time for delicate items.",
+      "id": 44
+    },
+    {
+      "name": "Machine Wash, Cold, Gentle or Delicate",
+      "image": "wh-washing-30deg-extra-care.svg",
+      "description": "Garment may be machine laundered only on the setting designed for gentle agitation and/or reduced time for delicate items.",
+      "id": 45
+    },
+    {
+      "name": "Machine Wash, Cold, Permanent Press",
+      "image": "wh-washing-30deg-permanent-press-alt.svg",
+      "description": "Garment may be machine laundered only on the setting designed to preserve Permanent Press with cool down or cold rinse prior to reduced spin.",
+      "id": 46
+    },
+    {
+      "name": "Machine Wash, Cold, Permanent Press",
+      "image": "wh-washing-30deg-permanent-press.svg",
+      "description": "Garment may be machine laundered only on the setting designed to preserve Permanent Press with cool down or cold rinse prior to reduced spin.",
+      "id": 47
+    },
+    {
+      "name": "Machine Wash, Cold",
+      "image": "wh-washing-30deg.svg",
+      "description": "Initial water temperature should not exceed 30C or 65 to 85F.",
+      "id": 48
+    },
+    {
+      "name": "Machine Wash, Warm",
+      "image": "wh-washing-40deg-alt.svg",
+      "description": "Initial water temperature should not exceed 40C or 105F.",
+      "id": 49
+    },
+    {
+      "name": "Machine Wash, Warm, Gentle or Delicate",
+      "image": "wh-washing-40deg-extra-care-alt.svg",
+      "description": "Garment may be machine laundered only on the setting designed for gentle agitation and/or reduced time for delicate items.",
+      "id": 50
+    },
+    {
+      "name": "Machine Wash, Warm, Gentle or Delicate",
+      "image": "wh-washing-40deg-extra-care.svg",
+      "description": "Garment may be machine laundered only on the setting designed for gentle agitation and/or reduced time for delicate items.",
+      "id": 51
+    },
+    {
+      "name": "Machine Wash, Warm, Permanent Press",
+      "image": "wh-washing-40deg-permanent-press-alt.svg",
+      "description": "Garment may be machine laundered only on the setting designed to preserve Permanent Press with cool down or cold rinse prior to reduced spin.",
+      "id": 52
+    },
+    {
+      "name": "Machine Wash, Warm, Permanent Press",
+      "image": "wh-washing-40deg-permanent-press.svg",
+      "description": "Garment may be machine laundered only on the setting designed to preserve Permanent Press with cool down or cold rinse prior to reduced spin.",
+      "id": 53
+    },
+    {
+      "name": "Machine Wash, Warm",
+      "image": "wh-washing-40deg.svg",
+      "description": "Initial water temperature should not exceed 40C or 105F.",
+      "id": 54
+    },
+    {
+      "name": "Machine Wash, Hot",
+      "image": "wh-washing-50deg-alt.svg",
+      "description": "Initial water temperature should not exceed 50C or 120F.",
+      "id": 55
+    },
+    {
+      "name": "Machine Wash, Hot, Permanent Press",
+      "image": "wh-washing-50deg-permanent-press-alt.svg",
+      "description": "Garment may be machine laundered only on the setting designed to preserve Permanent Press with cool down or cold rinse prior to reduced spin.",
+      "id": 56
+    },
+    {
+      "name": "Machine Wash, Hot, Permanent Press",
+      "image": "wh-washing-50deg-permanent-press.svg",
+      "description": "Garment may be machine laundered only on the setting designed to preserve Permanent Press with cool down or cold rinse prior to reduced spin.",
+      "id": 57
+    },
+    {
+      "name": "Machine Wash, Hot",
+      "image": "wh-washing-50deg.svg",
+      "description": "Initial water temperature should not exceed 50C or 120F.",
+      "id": 58
+    },
+    {
+      "name": "Machine Wash, Hot",
+      "image": "wh-washing-60deg-alt.svg",
+      "description": "Initial water temperature should not exceed 60C or 140F.",
+      "id": 59
+    },
+    {
+      "name": "Machine Wash, Hot, Permanent Press",
+      "image": "wh-washing-60deg-permanent-press-alt.svg",
+      "description": "Garment may be machine laundered only on the setting designed to preserve Permanent Press with cool down or cold rinse prior to reduced spin.",
+      "id": 60
+    },
+    {
+      "name": "Machine Wash, Hot, Permanent Press",
+      "image": "wh-washing-60deg-permanent-press.svg",
+      "description": "Garment may be machine laundered only on the setting designed to preserve Permanent Press with cool down or cold rinse prior to reduced spin.",
+      "id": 61
+    },
+    {
+      "name": "Machine Wash, Hot",
+      "image": "wh-washing-60deg.svg",
+      "description": "Initial water temperature should not exceed 60C or 140F.",
+      "id": 62
+    },
+    {
+      "name": "Machine Wash, Hot",
+      "image": "wh-washing-70deg-alt.svg",
+      "description": "Initial water temperature should not exceed 70C or 160F.",
+      "id": 63
+    },
+    {
+      "name": "Machine Wash, Hot",
+      "image": "wh-washing-70deg.svg",
+      "description": "Initial water temperature should not exceed 70C or 160F.",
+      "id": 64
+    },
+    {
+      "name": "Machine Wash, Hot",
+      "image": "wh-washing-90deg.svg",
+      "description": "Initial water temperature should not exceed 90C or 194.",
+      "id": 65
+    },
+    {
+      "name": "Machine Wash, Hot",
+      "image": "wh-washing-95deg-alt.svg",
+      "description": "Initial water temperature should not exceed 95C or 200F.",
+      "id": 66
+    },
+    {
+      "name": "Machine Wash, Hot, Permanent Press",
+      "image": "wh-washing-95deg-permanent-press-alt.svg",
+      "description": "Garment may be machine laundered only on the setting designed to preserve Permanent Press with cool down or cold rinse prior to reduced spin.",
+      "id": 67
+    },
+    {
+      "name": "Machine Wash, Hot, Permanent Press",
+      "image": "wh-washing-95deg-permanent-press.svg",
+      "description": "Garment may be machine laundered only on the setting designed to preserve Permanent Press with cool down or cold rinse prior to reduced spin.",
+      "id": 68
+    },
+    {
+      "name": "Hand Wash, Cold",
+      "image": "wh-washing-hand-30deg.svg",
+      "description": "Garment may be laundered through the use of water, detergent or soap and gentle hand manipulation.",
+      "id": 69
+    },
+    {
+      "name": "Hand Wash, Warm",
+      "image": "wh-washing-hand-40deg.svg",
+      "description": "Garment may be laundered through the use of water, detergent or soap and gentle hand manipulation.",
+      "id": 70
+    },
+    {
+      "name": "Hand Wash",
+      "image": "wh-washing-hand.svg",
+      "description": "Garment may be laundered through the use of water, detergent or soap and gentle hand manipulation.",
+      "id": 71
+    },
+    {
+      "name": "Do Not Wash",
+      "image": "wh-washing-not-allowed.svg",
+      "description": "Garment may not be safely laundered by any process. Normally accompanied by Dry Clean instructions.",
+      "id": 72
+    },
+    {
+      "name": "Machine Wash, Normal",
+      "image": "wh-washing.svg",
+      "description": "Garment may be laundered through the use of hottest available water, detergent or soap, agitation, and a machine designed for this purpose.",
+      "id": 73
+    },
+    {
+      "name": "Do Not Wring",
+      "image": "wh-wringing-not-allowed.svg",
+      "description": "Do Not Wring.",
+      "id": 74
+    }
+  ]
+}

@@ -9,11 +9,10 @@ import {
 import theme from './theme'
 
 import Brand from './components/Brand'
+import SearchInput from './components/SearchInput'
 
 function App() {
   const [query, setQuery] = useState('')
-
-  const handleChange = (event) => setQuery(event.target.value)
 
   return (
     <ChakraProvider theme={theme}>
@@ -26,12 +25,7 @@ function App() {
       >
         <Brand />
         <Container>
-          <Input
-            placeholder="Search"
-            size="lg"
-            value={query}
-            onChange={handleChange}
-          />
+          <SearchInput query={query} setQuery={setQuery} />
         </Container>
       </Flex>
     </ChakraProvider>

@@ -1,7 +1,18 @@
-import { ChakraProvider, Flex, Heading } from '@chakra-ui/react'
+import { useState } from 'react'
+import {
+  ChakraProvider,
+  Flex,
+  Container,
+  Heading,
+  Input,
+} from '@chakra-ui/react'
 import theme from './theme'
 
 function App() {
+  const [query, setQuery] = useState('')
+
+  const handleChange = (event) => setQuery(event.target.value)
+
   return (
     <ChakraProvider theme={theme}>
       <Flex
@@ -14,6 +25,14 @@ function App() {
         <Heading as="h1" variant="brand">
           Laundry Label Lookup
         </Heading>
+        <Container>
+          <Input
+            placeholder="Search"
+            size="lg"
+            value={query}
+            onChange={handleChange}
+          />
+        </Container>
       </Flex>
     </ChakraProvider>
   )

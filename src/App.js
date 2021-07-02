@@ -8,6 +8,8 @@ import {
 } from '@chakra-ui/react'
 import theme from './theme'
 
+import Brand from './components/Brand'
+
 function App() {
   const [query, setQuery] = useState('')
 
@@ -22,9 +24,7 @@ function App() {
         justify="center"
         height="100vh"
       >
-        <Heading as="h1" variant="brand">
-          Laundry Label Lookup
-        </Heading>
+        <Brand />
         <Container>
           <Input
             placeholder="Search"

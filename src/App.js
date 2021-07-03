@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { ChakraProvider, Flex, Container } from '@chakra-ui/react'
+import { ChakraProvider, VStack, Container } from '@chakra-ui/react'
 import theme from './theme'
 
 import Brand from './components/Brand'
@@ -28,19 +28,19 @@ function App() {
 
   return (
     <ChakraProvider theme={theme}>
-      <Flex
+      <VStack
         as="main"
-        direction="column"
+        spacing={{ base: 5, md: 10 }}
         align="center"
-        justify="center"
         height="100vh"
+        mt={{ base: 4, md: 20 }}
       >
         <Brand />
         <Container>
           <SearchInput query={query} setQuery={setQuery} />
-          <SymbolDisplay symbols={results} />
+          <SymbolDisplay symbols={results} mt={{ base: 5, md: 8 }} />
         </Container>
-      </Flex>
+      </VStack>
     </ChakraProvider>
   )
 }

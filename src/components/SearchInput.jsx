@@ -1,6 +1,6 @@
 import { Input } from '@chakra-ui/react'
 
-export default function SearchInput({ query, setQuery }) {
+export default function SearchInput({ query, setQuery, ...rest }) {
   const handleChange = (event) => setQuery(event.target.value)
 
   return (
@@ -9,6 +9,7 @@ export default function SearchInput({ query, setQuery }) {
       size="lg"
       value={query}
       onChange={handleChange}
+      {...rest}
     />
   )
 }

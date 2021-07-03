@@ -1,5 +1,31 @@
-import { Image } from '@chakra-ui/react'
+import {
+  Image,
+  Popover,
+  PopoverTrigger,
+  PopoverContent,
+  PopoverArrow,
+  PopoverCloseButton,
+  PopoverHeader,
+  PopoverBody,
+} from '@chakra-ui/react'
 
-export default function Symbol({ symbol: { image, name } }) {
-  return <Image src={`/svg/${image}`} alt={name} height={65} />
+export default function Symbol(
+  { symbol: { image, name, description } },
+  ...rest
+) {
+  return (
+    <Popover isLazy>
+      <PopoverTrigger>
+        <Image src={`/svg/${image}`} alt={name} height={65} />
+      </PopoverTrigger>
+      <PopoverContent borderColor="gray.600" bg="gray.900" color="white">
+        <PopoverArrow bg="gray.900" />
+        <PopoverCloseButton />
+        <PopoverHeader fontWeight="bold" border="0">
+          {name}
+        </PopoverHeader>
+        <PopoverBody>{description}</PopoverBody>
+      </PopoverContent>
+    </Popover>
+  )
 }

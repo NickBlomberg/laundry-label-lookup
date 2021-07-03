@@ -16,7 +16,13 @@ export default function Symbol(
   return (
     <Popover isLazy>
       <PopoverTrigger>
-        <Image src={`/svg/${image}`} alt={name} height={65} />
+        <Image
+          src={`/svg/${image}`}
+          alt={name}
+          height={65}
+          htmlHeight="65px"
+          htmlWidth="65px"
+        />
       </PopoverTrigger>
       <PopoverContent borderColor="gray.600" bg="gray.900" color="white">
         <PopoverArrow bg="gray.900" />

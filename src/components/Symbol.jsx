@@ -1,4 +1,5 @@
 import {
+  Flex,
   Image,
   Popover,
   PopoverTrigger,
@@ -17,13 +18,15 @@ export default function Symbol(
     <Popover isLazy>
       <PopoverTrigger>
         <button>
-          <Image
-            src={`/svg/${image}`}
-            alt={name}
-            height={65}
-            htmlHeight="65px"
-            htmlWidth="65px"
-          />
+          <Flex align="center" justify="center">
+            <Image
+              src={`/svg/${image}`}
+              alt={name}
+              height={65}
+              htmlHeight="65px"
+              htmlWidth="65px"
+            />
+          </Flex>
         </button>
       </PopoverTrigger>
       <PopoverContent borderColor="gray.600" bg="gray.900" color="white">

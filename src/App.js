@@ -17,11 +17,13 @@ function App() {
       return
     }
 
+    const queryPattern = new RegExp(query, 'i')
+
     setResults(
       data.symbols.filter(
         (symbol) =>
-          symbol.name.toLowerCase().indexOf(query) > 0 ||
-          symbol.description.toLowerCase().indexOf(query) > 0,
+          queryPattern.test(symbol.name) ||
+          queryPattern.test(symbol.description),
       ),
     )
   }, [query])
